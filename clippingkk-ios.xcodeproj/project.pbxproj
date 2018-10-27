@@ -13,6 +13,8 @@
 		DCADCE0E218446FF00198169 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCADCE0C218446FF00198169 /* Main.storyboard */; };
 		DCADCE102184470000198169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCADCE0F2184470000198169 /* Assets.xcassets */; };
 		DCADCE132184470000198169 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCADCE112184470000198169 /* LaunchScreen.storyboard */; };
+		DCADCE1B21844A7D00198169 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCADCE1A21844A7D00198169 /* AuthViewController.swift */; };
+		DCADCE1D21844C8800198169 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCADCE1C21844C8800198169 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DCADCE0F2184470000198169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCADCE122184470000198169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCADCE142184470000198169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCADCE1A21844A7D00198169 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AuthViewController.swift; path = controllers/AuthViewController.swift; sourceTree = "<group>"; };
+		DCADCE1C21844C8800198169 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = controllers/ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				DCADCE06218446FF00198169 /* AppDelegate.swift */,
 				DCADCE08218446FF00198169 /* FirstViewController.swift */,
+				DCADCE1A21844A7D00198169 /* AuthViewController.swift */,
+				DCADCE1C21844C8800198169 /* ProfileViewController.swift */,
 				DCADCE0A218446FF00198169 /* SecondViewController.swift */,
 				DCADCE0C218446FF00198169 /* Main.storyboard */,
 				DCADCE0F2184470000198169 /* Assets.xcassets */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCADCE1B21844A7D00198169 /* AuthViewController.swift in Sources */,
 				DCADCE0B218446FF00198169 /* SecondViewController.swift in Sources */,
+				DCADCE1D21844C8800198169 /* ProfileViewController.swift in Sources */,
 				DCADCE07218446FF00198169 /* AppDelegate.swift in Sources */,
 				DCADCE09218446FF00198169 /* FirstViewController.swift in Sources */,
 			);

@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  ProfileViewController.swift
 //  clippingkk-ios
 //
 //  Created by AnnatarHe on 2018/10/27.
@@ -8,16 +8,9 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
-
+class ProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
+        performSegue(withIdentifier: "segue_auth", sender: nil)
     }
-    
-    
-
-
 }
-

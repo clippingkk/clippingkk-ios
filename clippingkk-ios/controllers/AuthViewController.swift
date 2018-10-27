@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  AuthViewController.swift
 //  clippingkk-ios
 //
 //  Created by AnnatarHe on 2018/10/27.
@@ -8,16 +8,11 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
-
+class AuthViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        print(" did load")
         
     }
-    
-    
-
-
 }
-
