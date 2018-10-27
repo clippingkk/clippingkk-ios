@@ -7,29 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DCADCDE5218443B100198169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCADCDE4218443B100198169 /* AppDelegate.swift */; };
-		DCADCDE7218443B100198169 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCADCDE6218443B100198169 /* RootViewController.swift */; };
-		DCADCDE9218443B100198169 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCADCDE8218443B100198169 /* DataViewController.swift */; };
-		DCADCDEB218443B100198169 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCADCDEA218443B100198169 /* ModelController.swift */; };
-		DCADCDEE218443B100198169 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCADCDEC218443B100198169 /* Main.storyboard */; };
-		DCADCDF0218443B300198169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCADCDEF218443B300198169 /* Assets.xcassets */; };
-		DCADCDF3218443B300198169 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCADCDF1218443B300198169 /* LaunchScreen.storyboard */; };
+		DCADCE07218446FF00198169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCADCE06218446FF00198169 /* AppDelegate.swift */; };
+		DCADCE09218446FF00198169 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCADCE08218446FF00198169 /* FirstViewController.swift */; };
+		DCADCE0B218446FF00198169 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCADCE0A218446FF00198169 /* SecondViewController.swift */; };
+		DCADCE0E218446FF00198169 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCADCE0C218446FF00198169 /* Main.storyboard */; };
+		DCADCE102184470000198169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCADCE0F2184470000198169 /* Assets.xcassets */; };
+		DCADCE132184470000198169 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCADCE112184470000198169 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DCADCDE1218443B100198169 /* clippingkk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clippingkk.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCADCDE4218443B100198169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCADCDE6218443B100198169 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		DCADCDE8218443B100198169 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		DCADCDEA218443B100198169 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
-		DCADCDED218443B100198169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DCADCDEF218443B300198169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DCADCDF2218443B300198169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DCADCDF4218443B300198169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCADCE03218446FF00198169 /* clippingkk-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "clippingkk-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCADCE06218446FF00198169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCADCE08218446FF00198169 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DCADCE0A218446FF00198169 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DCADCE0D218446FF00198169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCADCE0F2184470000198169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCADCE122184470000198169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCADCE142184470000198169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DCADCDDE218443B100198169 /* Frameworks */ = {
+		DCADCE00218446FF00198169 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,73 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DCADCDD8218443B100198169 = {
+		DCADCDFA218446FF00198169 = {
 			isa = PBXGroup;
 			children = (
-				DCADCDE3218443B100198169 /* clippingkk */,
-				DCADCDE2218443B100198169 /* Products */,
+				DCADCE05218446FF00198169 /* clippingkk-ios */,
+				DCADCE04218446FF00198169 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DCADCDE2218443B100198169 /* Products */ = {
+		DCADCE04218446FF00198169 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DCADCDE1218443B100198169 /* clippingkk.app */,
+				DCADCE03218446FF00198169 /* clippingkk-ios.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DCADCDE3218443B100198169 /* clippingkk */ = {
+		DCADCE05218446FF00198169 /* clippingkk-ios */ = {
 			isa = PBXGroup;
 			children = (
-				DCADCDE4218443B100198169 /* AppDelegate.swift */,
-				DCADCDE6218443B100198169 /* RootViewController.swift */,
-				DCADCDE8218443B100198169 /* DataViewController.swift */,
-				DCADCDEA218443B100198169 /* ModelController.swift */,
-				DCADCDEC218443B100198169 /* Main.storyboard */,
-				DCADCDEF218443B300198169 /* Assets.xcassets */,
-				DCADCDF1218443B300198169 /* LaunchScreen.storyboard */,
-				DCADCDF4218443B300198169 /* Info.plist */,
+				DCADCE06218446FF00198169 /* AppDelegate.swift */,
+				DCADCE08218446FF00198169 /* FirstViewController.swift */,
+				DCADCE0A218446FF00198169 /* SecondViewController.swift */,
+				DCADCE0C218446FF00198169 /* Main.storyboard */,
+				DCADCE0F2184470000198169 /* Assets.xcassets */,
+				DCADCE112184470000198169 /* LaunchScreen.storyboard */,
+				DCADCE142184470000198169 /* Info.plist */,
 			);
-			path = clippingkk;
+			path = "clippingkk-ios";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DCADCDE0218443B100198169 /* clippingkk */ = {
+		DCADCE02218446FF00198169 /* clippingkk-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCADCDF7218443B300198169 /* Build configuration list for PBXNativeTarget "clippingkk" */;
+			buildConfigurationList = DCADCE172184470000198169 /* Build configuration list for PBXNativeTarget "clippingkk-ios" */;
 			buildPhases = (
-				DCADCDDD218443B100198169 /* Sources */,
-				DCADCDDE218443B100198169 /* Frameworks */,
-				DCADCDDF218443B100198169 /* Resources */,
+				DCADCDFF218446FF00198169 /* Sources */,
+				DCADCE00218446FF00198169 /* Frameworks */,
+				DCADCE01218446FF00198169 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = clippingkk;
-			productName = clippingkk;
-			productReference = DCADCDE1218443B100198169 /* clippingkk.app */;
+			name = "clippingkk-ios";
+			productName = "clippingkk-ios";
+			productReference = DCADCE03218446FF00198169 /* clippingkk-ios.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DCADCDD9218443B100198169 /* Project object */ = {
+		DCADCDFB218446FF00198169 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = AnnatarHe;
 				TargetAttributes = {
-					DCADCDE0218443B100198169 = {
+					DCADCE02218446FF00198169 = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
-			buildConfigurationList = DCADCDDC218443B100198169 /* Build configuration list for PBXProject "clippingkk" */;
+			buildConfigurationList = DCADCDFE218446FF00198169 /* Build configuration list for PBXProject "clippingkk-ios" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,56 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = DCADCDD8218443B100198169;
-			productRefGroup = DCADCDE2218443B100198169 /* Products */;
+			mainGroup = DCADCDFA218446FF00198169;
+			productRefGroup = DCADCE04218446FF00198169 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DCADCDE0218443B100198169 /* clippingkk */,
+				DCADCE02218446FF00198169 /* clippingkk-ios */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DCADCDDF218443B100198169 /* Resources */ = {
+		DCADCE01218446FF00198169 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCADCDF3218443B300198169 /* LaunchScreen.storyboard in Resources */,
-				DCADCDF0218443B300198169 /* Assets.xcassets in Resources */,
-				DCADCDEE218443B100198169 /* Main.storyboard in Resources */,
+				DCADCE132184470000198169 /* LaunchScreen.storyboard in Resources */,
+				DCADCE102184470000198169 /* Assets.xcassets in Resources */,
+				DCADCE0E218446FF00198169 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DCADCDDD218443B100198169 /* Sources */ = {
+		DCADCDFF218446FF00198169 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCADCDE7218443B100198169 /* RootViewController.swift in Sources */,
-				DCADCDEB218443B100198169 /* ModelController.swift in Sources */,
-				DCADCDE9218443B100198169 /* DataViewController.swift in Sources */,
-				DCADCDE5218443B100198169 /* AppDelegate.swift in Sources */,
+				DCADCE0B218446FF00198169 /* SecondViewController.swift in Sources */,
+				DCADCE07218446FF00198169 /* AppDelegate.swift in Sources */,
+				DCADCE09218446FF00198169 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DCADCDEC218443B100198169 /* Main.storyboard */ = {
+		DCADCE0C218446FF00198169 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DCADCDED218443B100198169 /* Base */,
+				DCADCE0D218446FF00198169 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DCADCDF1218443B300198169 /* LaunchScreen.storyboard */ = {
+		DCADCE112184470000198169 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DCADCDF2218443B300198169 /* Base */,
+				DCADCE122184470000198169 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DCADCDF5218443B300198169 /* Debug */ = {
+		DCADCE152184470000198169 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		DCADCDF6218443B300198169 /* Release */ = {
+		DCADCE162184470000198169 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -286,36 +282,36 @@
 			};
 			name = Release;
 		};
-		DCADCDF8218443B300198169 /* Debug */ = {
+		DCADCE182184470000198169 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VY3AP6C55K;
-				INFOPLIST_FILE = clippingkk/Info.plist;
+				INFOPLIST_FILE = "clippingkk-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.annatarhe.clippingkk.clippingkk;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.annatarhe.clippingkk.clippingkk-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		DCADCDF9218443B300198169 /* Release */ = {
+		DCADCE192184470000198169 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VY3AP6C55K;
-				INFOPLIST_FILE = clippingkk/Info.plist;
+				INFOPLIST_FILE = "clippingkk-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.annatarhe.clippingkk.clippingkk;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.annatarhe.clippingkk.clippingkk-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,25 +321,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DCADCDDC218443B100198169 /* Build configuration list for PBXProject "clippingkk" */ = {
+		DCADCDFE218446FF00198169 /* Build configuration list for PBXProject "clippingkk-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DCADCDF5218443B300198169 /* Debug */,
-				DCADCDF6218443B300198169 /* Release */,
+				DCADCE152184470000198169 /* Debug */,
+				DCADCE162184470000198169 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCADCDF7218443B300198169 /* Build configuration list for PBXNativeTarget "clippingkk" */ = {
+		DCADCE172184470000198169 /* Build configuration list for PBXNativeTarget "clippingkk-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DCADCDF8218443B300198169 /* Debug */,
-				DCADCDF9218443B300198169 /* Release */,
+				DCADCE182184470000198169 /* Debug */,
+				DCADCE192184470000198169 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DCADCDD9218443B100198169 /* Project object */;
+	rootObject = DCADCDFB218446FF00198169 /* Project object */;
 }

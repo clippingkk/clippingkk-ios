@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  clippingkk
+//  clippingkk-ios
 //
 //  Created by AnnatarHe on 2018/10/27.
 //  Copyright © 2018 AnnatarHe. All rights reserved.
