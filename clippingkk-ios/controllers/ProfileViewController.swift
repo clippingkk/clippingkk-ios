@@ -9,8 +9,15 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
+    @IBAction func gotoSettings(_ sender: Any) {
+        // TODO: go to settings
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.checkAuth()
+    }
+    
+    func checkAuth() {
         performSegue(withIdentifier: "segue_auth", sender: nil)
     }
 }

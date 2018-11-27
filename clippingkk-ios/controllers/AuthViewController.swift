@@ -9,10 +9,18 @@
 import UIKit
 
 class AuthViewController: UIViewController {
+    @IBOutlet weak var emailText: UITextField!
+    @IBOutlet weak var pwdText: UITextField!
+    @IBAction func onAuth(_ sender: Any) {
+        // do auth
+    }
+    @IBAction func onCancel(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         print(" did load")
-        
     }
 }

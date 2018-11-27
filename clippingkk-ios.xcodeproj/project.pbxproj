@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		DCADCE07218446FF00198169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCADCE06218446FF00198169 /* AppDelegate.swift */; };
 		DCADCE09218446FF00198169 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCADCE08218446FF00198169 /* FirstViewController.swift */; };
-		DCADCE0B218446FF00198169 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCADCE0A218446FF00198169 /* SecondViewController.swift */; };
+		DCADCE0B218446FF00198169 /* SquareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCADCE0A218446FF00198169 /* SquareViewController.swift */; };
 		DCADCE0E218446FF00198169 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCADCE0C218446FF00198169 /* Main.storyboard */; };
 		DCADCE102184470000198169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCADCE0F2184470000198169 /* Assets.xcassets */; };
 		DCADCE132184470000198169 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCADCE112184470000198169 /* LaunchScreen.storyboard */; };
@@ -21,7 +21,7 @@
 		DCADCE03218446FF00198169 /* clippingkk-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "clippingkk-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCADCE06218446FF00198169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCADCE08218446FF00198169 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		DCADCE0A218446FF00198169 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DCADCE0A218446FF00198169 /* SquareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareViewController.swift; sourceTree = "<group>"; };
 		DCADCE0D218446FF00198169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCADCE0F2184470000198169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCADCE122184470000198169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 				DCADCE08218446FF00198169 /* FirstViewController.swift */,
 				DCADCE1A21844A7D00198169 /* AuthViewController.swift */,
 				DCADCE1C21844C8800198169 /* ProfileViewController.swift */,
-				DCADCE0A218446FF00198169 /* SecondViewController.swift */,
+				DCADCE0A218446FF00198169 /* SquareViewController.swift */,
 				DCADCE0C218446FF00198169 /* Main.storyboard */,
 				DCADCE0F2184470000198169 /* Assets.xcassets */,
 				DCADCE112184470000198169 /* LaunchScreen.storyboard */,
@@ -145,7 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCADCE1B21844A7D00198169 /* AuthViewController.swift in Sources */,
-				DCADCE0B218446FF00198169 /* SecondViewController.swift in Sources */,
+				DCADCE0B218446FF00198169 /* SquareViewController.swift in Sources */,
 				DCADCE1D21844C8800198169 /* ProfileViewController.swift in Sources */,
 				DCADCE07218446FF00198169 /* AppDelegate.swift in Sources */,
 				DCADCE09218446FF00198169 /* FirstViewController.swift in Sources */,
