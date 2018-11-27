@@ -1,5 +1,6 @@
 github "Alamofire/Alamofire" "4.8.0"
 github "SwiftyJSON/Alamofire-SwiftyJSON" "3e6d3254a417de748186c7eecb2ecd2c4f7fb7f5"
+github "SwiftyJSON/SwiftyJSON" "4.2.0"
 github "evgenyneu/keychain-swift" "10.0.0"
 github "getsentry/sentry-cocoa" "3.8.5"
 github "rs/SDWebImage" "4.4.2"

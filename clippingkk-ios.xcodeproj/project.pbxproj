@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC191B5B21AD92E000ED2777 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC191B5A21AD92E000ED2777 /* Alamofire.framework */; };
+		DC191B5D21AD92E600ED2777 /* AlamofireSwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC191B5C21AD92E500ED2777 /* AlamofireSwiftyJSON.framework */; };
+		DC191B5F21AD92EB00ED2777 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC191B5E21AD92EB00ED2777 /* SDWebImage.framework */; };
+		DC191B6121AD92F000ED2777 /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC191B6021AD92F000ED2777 /* KeychainSwift.framework */; };
+		DC191B6321AD92FA00ED2777 /* Sentry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC191B6221AD92FA00ED2777 /* Sentry.framework */; };
+		DC191B6621AD964700ED2777 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC191B6521AD964700ED2777 /* SwiftyJSON.framework */; };
+		DC191B6921AD98E000ED2777 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC191B6821AD98E000ED2777 /* Auth.swift */; };
+		DC191B6B21AD997300ED2777 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC191B6A21AD997300ED2777 /* Config.swift */; };
 		DCADCE07218446FF00198169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCADCE06218446FF00198169 /* AppDelegate.swift */; };
 		DCADCE09218446FF00198169 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCADCE08218446FF00198169 /* FirstViewController.swift */; };
 		DCADCE0B218446FF00198169 /* SquareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCADCE0A218446FF00198169 /* SquareViewController.swift */; };
@@ -18,6 +26,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC191B5A21AD92E000ED2777 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		DC191B5C21AD92E500ED2777 /* AlamofireSwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireSwiftyJSON.framework; path = Carthage/Build/iOS/AlamofireSwiftyJSON.framework; sourceTree = "<group>"; };
+		DC191B5E21AD92EB00ED2777 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
+		DC191B6021AD92F000ED2777 /* KeychainSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainSwift.framework; path = Carthage/Build/iOS/KeychainSwift.framework; sourceTree = "<group>"; };
+		DC191B6221AD92FA00ED2777 /* Sentry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sentry.framework; path = Carthage/Build/iOS/Sentry.framework; sourceTree = "<group>"; };
+		DC191B6521AD964700ED2777 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		DC191B6821AD98E000ED2777 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		DC191B6A21AD997300ED2777 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		DCADCE03218446FF00198169 /* clippingkk-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "clippingkk-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCADCE06218446FF00198169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCADCE08218446FF00198169 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -35,17 +51,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC191B5B21AD92E000ED2777 /* Alamofire.framework in Frameworks */,
+				DC191B6621AD964700ED2777 /* SwiftyJSON.framework in Frameworks */,
+				DC191B5D21AD92E600ED2777 /* AlamofireSwiftyJSON.framework in Frameworks */,
+				DC191B6121AD92F000ED2777 /* KeychainSwift.framework in Frameworks */,
+				DC191B5F21AD92EB00ED2777 /* SDWebImage.framework in Frameworks */,
+				DC191B6321AD92FA00ED2777 /* Sentry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC191B5921AD92E000ED2777 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC191B6521AD964700ED2777 /* SwiftyJSON.framework */,
+				DC191B6221AD92FA00ED2777 /* Sentry.framework */,
+				DC191B6021AD92F000ED2777 /* KeychainSwift.framework */,
+				DC191B5E21AD92EB00ED2777 /* SDWebImage.framework */,
+				DC191B5C21AD92E500ED2777 /* AlamofireSwiftyJSON.framework */,
+				DC191B5A21AD92E000ED2777 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC191B6721AD98C500ED2777 /* apis */ = {
+			isa = PBXGroup;
+			children = (
+				DC191B6821AD98E000ED2777 /* Auth.swift */,
+				DC191B6A21AD997300ED2777 /* Config.swift */,
+			);
+			path = apis;
+			sourceTree = "<group>";
+		};
 		DCADCDFA218446FF00198169 = {
 			isa = PBXGroup;
 			children = (
 				DCADCE05218446FF00198169 /* clippingkk-ios */,
 				DCADCE04218446FF00198169 /* Products */,
+				DC191B5921AD92E000ED2777 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +105,7 @@
 		DCADCE05218446FF00198169 /* clippingkk-ios */ = {
 			isa = PBXGroup;
 			children = (
+				DC191B6721AD98C500ED2777 /* apis */,
 				DCADCE06218446FF00198169 /* AppDelegate.swift */,
 				DCADCE08218446FF00198169 /* FirstViewController.swift */,
 				DCADCE1A21844A7D00198169 /* AuthViewController.swift */,
@@ -83,6 +129,7 @@
 				DCADCDFF218446FF00198169 /* Sources */,
 				DCADCE00218446FF00198169 /* Frameworks */,
 				DCADCE01218446FF00198169 /* Resources */,
+				DC191B6421AD931800ED2777 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -139,6 +186,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DC191B6421AD931800ED2777 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AlamofireSwiftyJSON.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SDWebImage.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/KeychainSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Sentry.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AlamofireSwiftyJSON.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SDWebImage.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/KeychainSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Sentry.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DCADCDFF218446FF00198169 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -147,8 +227,10 @@
 				DCADCE1B21844A7D00198169 /* AuthViewController.swift in Sources */,
 				DCADCE0B218446FF00198169 /* SquareViewController.swift in Sources */,
 				DCADCE1D21844C8800198169 /* ProfileViewController.swift in Sources */,
+				DC191B6B21AD997300ED2777 /* Config.swift in Sources */,
 				DCADCE07218446FF00198169 /* AppDelegate.swift in Sources */,
 				DCADCE09218446FF00198169 /* FirstViewController.swift in Sources */,
+				DC191B6921AD98E000ED2777 /* Auth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +378,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VY3AP6C55K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "clippingkk-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,7 +390,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.annatarhe.clippingkk.clippingkk-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -314,6 +400,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VY3AP6C55K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "clippingkk-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -322,7 +412,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.annatarhe.clippingkk.clippingkk-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import Alamofire
 
 class AuthViewController: UIViewController {
     @IBOutlet weak var emailText: UITextField!
     @IBOutlet weak var pwdText: UITextField!
     @IBAction func onAuth(_ sender: Any) {
         // do auth
+        
+        Alamofire.request("")
+        
     }
     @IBAction func onCancel(_ sender: Any) {
         dismiss(animated: true, completion: nil)

@@ -1,4 +1,5 @@
 github "Alamofire/Alamofire" ~> 4.4
+github "SwiftyJSON/SwiftyJSON" ~> 4.0
 github "SwiftyJSON/Alamofire-SwiftyJSON" "master"
 github "rs/SDWebImage"
 github "suzuki-0000/SKPhotoBrowser"
